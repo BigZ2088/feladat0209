@@ -1,5 +1,8 @@
 body
 {
+    background-image: url("baseball-background.jpg");
+    background-size: 960px;
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
     background-position-x: 150px;
@@ -7,12 +10,20 @@ body
 
 #content
 {
+    width: 800px;
+    margin: auto;
+    margin-top: 150px;
+    border-left: red 2px solid;
+    border-right: red 2px solid;
     padding: 20px;
     background-color: rgba(255,255,255,0.85);
 }
 
 .frame
 {
+    float: right;
+    width: 150px;
+    border-left: 2px black solid;
     padding:20px;
     margin:10px;
 }
@@ -20,4 +31,22 @@ body
 .frame img
 {
     width: 150px;
+}
+
+.imgcaption{
+    text-align: center;
+    font-style: italic;
+}
+
+.kiemelt{
+    color: red;
+    font-weight: bold;
+}
+
+a, a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
 }
